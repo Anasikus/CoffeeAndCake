@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="js.js"></script>
+</head>
+<body>
+	<section id="Main">
+		<div class="Shapka">
+			<div class="Zagolovok_Shapki">
+				<header>
+					<p>COFFEE & CAKE</p>
+				</header>
+			</div>
+			<div class="IMG"><a href="#zatemnenie"><img src="images/рег 1.png"></a></div>	
+		</div>
+		<div class="Content2">
+			<div>
+				<div class="Content">
+					<p class="Zagolovok_Ob">COFFE AND CAKE</p>
+				</div>
+				<div class="Podpis">
+					<p>“КОФЕ & ТОРТИК” - кофе со вкусом, кейк как наслаждение</p>
+				</div>
+			</div>
+			<div class="Podval">
+				<div><a href=""><img src="images/вк.png"></a></div>
+				<div><a href=""><img src="images/тг.png"></a></div>
+				<div><a href=""><img src="images/почта.png"></a></div>
+				<div><a href=""><img src="images/ватсап.png"></a></div>
+				<div class="img"><img src="images/чашка с кофе.png"></div>
+			</div>
+		</div>
+	</section>
+
+	  	<div id="zatemnenie">
+    	<div id="okno">
+        	<section id="Avtorizazia">
+    			<div class="Registration">
+      				<div class="AA">
+        				<p class="Text2">Регистрация</p>
+        				<p class="Text3">Для создания аккаунта необходимо пройти процедуру регистрации</p>
+      				</div>
+     				<div class="bi">
+        				<button class="Knopka" onclick="window.location='#zatemnenie4'">Зарегистрироваться</button>
+      				</div>
+    			</div>
+    			<div class="Avtorizazia">
+      				<div class="AA">
+        				<p class="Text2" style="color: black">Авторизация</p>
+        				<p class="Text3" style="color: black">Для входа необходимо ввести номер телефона и пароль</p>
+      				</div>
+      				<div class="A">
+       					<div class="AAA">
+          					<div class="AAAA">
+            					<input type="tel" name="tel" placeholder="Номер телефона" class="Vvod_Avtorizacia">
+            					<input type="password" id="password-input" placeholder="Пароль" name="password"class="Vvod_Avtorizacia">  
+          					</div>
+          					<a href="#zatemnenie2" class="Zabili_parol">Забыли пароль?</a>
+        				</div>
+        				<div><button class="Knopka" style="background: #63564D">Войти</button></div>
+      				</div>
+    			</div>
+    			<div id="Vosstanovlenie">
+        			<a href="#" class="close"><img src="images/кре_1.png"></a>
+     			</div>
+  			</section>
+     	</div>
+    </div>
+  </div>
+
+    <div id="zatemnenie1">
+        <div id="okno1">
+          <div id="Vosstanovlenie">
+            <a href="#zatemnenie2" class="close1"><img src="images/кре_1.png"></a>
+          </div>
+          <div>
+            <p id="Zagg">Введите код из SMS</p>
+            <p id="Zzag">SMS-сообщение отправлено на номер</p>
+            <input id="inputt" maxlength="12"/>
+            <button class="buttonn" onclick="window.location='#zatemnenie3'">Далее</button>
+          </div>
+        </div>
+    </div>
+
+    <div id="zatemnenie2">
+        <div id="okno2">
+          <div id="Vosstanovlenie">
+            <a href="#zatemnenie" class="close1"><img src="images/кре_1.png"></a>
+          </div>
+          <div>
+            <div id="Zagg">Восстановление пароля</div>
+            <div id="Zzag">Пожалуйста, укажите номер телефона, который вы использовали для входа на сайт.</div>
+            <input type="tel" id="inputt" pattern="[+]{1}[0-9]{11,14}" required placeholder="Номер телефона" maxlength="12"/>
+            <button class="buttonn" onclick="window.location='#zatemnenie1'">Далее</button>
+          </div>
+        </div>
+    </div>
+	<div id="zatemnenie3">
+		<div id="okno3">
+			<div id="Vosstanovlenie">
+				<a href="#zatemnenie1" class="close3"><img src="images/кре_1.png"></a>
+			</div>
+			<div class="interval">
+        		<p id="Zagg">Новый пароль</p>
+        		<p id="Zzag">Придумайте новый пароль</p>
+        		<input id="inputt" maxlength="100"/>
+        		<p id="Zzag">Повторите пароль</p>
+        		<input id="inputt" maxlength="100"/>
+        		<button class="buttonn2" width="400px" onclick="window.location='#'">Вернуться на главное окно</button>
+      		</div>
+    	</div>
+  	</div>
+
+  	         <div id="zatemnenie4">
+        <div id="okno4">
+          <div id="Vosstanovlenie">
+            <a href="#zatemnenie" class="close1"><img src="images/кре_1.png"></a>
+          </div>
+          <div>
+            <div id="Zagg">Регистрация аккаунта</div>
+            <div id="Zzag">Пожалуйста, укажите номер телефона, которым вы будете пользоваться для входа на сайт </div>
+            <input type="tel" id="inputt" pattern="[+]{1}[0-9]{11,14}" required placeholder="Номер телефона" maxlength="12"/>
+            <button class="buttonn" onclick="window.location='#zatemnenie5'">Далее</button>
+          </div>
+        </div>
+    </div>
+
+      <div id="zatemnenie5">
+        <div id="okno1">
+          <div id="Vosstanovlenie">
+            <a href="#zatemnenie" class="close1"><img src="images/кре_1.png"></a>
+          </div>
+          <div>
+            <p id="Zagg">Введите код из SMS</p>
+            <p id="Zzag">SMS-сообщение отправлено на номер</p>
+            <input id="inputt" maxlength="12"/>
+            <button class="buttonn" onclick="window.location='#zatemnenie6'">Далее</button>
+          </div>
+        </div>
+    </div>
+      <div id="zatemnenie6">
+    <div id="okno3">
+      <div id="Vosstanovlenie">
+        <a href="#zatemnenie5" class="close3"><img src="images/кре_1.png"></a>
+      </div>
+
+      <div class="interval">
+            <p id="Zagg">Придумайте пароль</p>
+            <p id="Zzag">Пароль</p>
+            <input id="inputt" maxlength="100"/>
+            <p id="Zzag">Повторите пароль</p>
+            <input id="inputt" maxlength="100"/>
+            <button class="buttonn2" width="400px" onclick="window.location='#'">Вернутся на главное окно</button>
+          </div>
+      </div>
+    </div>
+
+	<section id="O_Kofeine">
+		<div class="Content3">
+			<div class="OK">
+				<p class="Text1" style="text-align: left;">КОФЕ & ТОРТИК</p>
+				<p class="Zagolovok_OK">О кофейне:</p>
+				<p class="Text1" style="text-align: left;">Добро пожаловать в кофейню "КОФЕ & ТОРТИК"! У нас вы найдете уютную атмосферу, отличный выбор кофейных напитков и свежеиспеченные десерты. Наслаждайтесь чашечкой ароматного кофе в компании друзей или просто наслаждайтесь моментом уединения. Мы гарантируем вам высокое качество продукции и радушное обслуживание. Приходите к нам в "КОФЕ & ТОРТИК" и отдохните от суеты городской жизни в уютной обстановке нашего заведения.</p>
+			</div>
+			<div class="conteiner_1">
+				<div class="conteiner">
+					<div class="Text_Zag">
+						<img src="images/чашка.png" class="img_1">
+						<p>НАШЕ КОФЕ</p>
+						<p>Мы готовим наши кофейные шедевры из зернового кофе Эфипия Гуджи, средней обжарки.</p>
+					</div>
+					<div class="Text_Zag">
+						<img src="images/бариста.png" class="img_1">
+						<p>БАРИСТА</p>
+						<p>Специалист по приготовлению кофе, правильно приготовит кофе или напитки.</p>
+					</div>
+				</div>
+				<div class="conteiner">
+					<div class="Text_Zag">
+						<img src="images/Кофемашина.png" class="img_1">
+						<p>ОБОРУДОВАНИЕ</p>
+						<p>Мы работаем на профессиональных кофемашинах, это полностью отечественный продукт высокого качества.</p>
+					</div>
+					<div class="Text_Zag">
+						<img src="images/повар.png" class="img_1">
+						<p>КУХНЯ</p>
+						<p>У нас своя кухня и свой шеф повар с отличным вкусом, он замечательно готовит десерты. Советую попробовать!</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="MP">
+    <div class="Zagolovok_MP">
+      <header>
+        <p>МЫ ПРЕДЛАГАЕМ</p>
+      </header>
+    </div>
+    <div class="MP">
+     	<button class="Knopki" onclick="showSection('MP')">Фирменные комбо</button>
+		<button class="Knopki" onclick="showSection('MP_Deserts')">Десерты</button>
+		<button class="Knopki" onclick="showSection('MP_Coffee')">Кофе</button>
+    </div>
+    	<div class="BB">
+    		<div class="BB">
+			
+				<div class="MiP">
+					<img src="images/американо_1.png">
+					<p>Американо</p>
+					<div>
+						<p>200мл.................90р</p>
+						<p>300мл...............140р</p>
+						<p>400мл...............190р</p>
+					</div>	
+				</div>
+				<div class="MiP">
+					<img src="images/капучино_1.png">
+					<p>Капучино</p>
+					<div>
+						<p>200мл...............100р</p>
+						<p>300мл...............150р</p>
+						<p>400мл...............200р</p>
+					</div> 
+				</div>
+				<div class="MiP">
+					<img src="images/латте_1.png">
+					<p>Латте</p>
+					<div>
+						<p>200мл...............110р</p>
+						<p>300мл...............160р</p>
+						<p>400мл...............210р</p>
+					</div>
+				</div>
+				<div class="MiP">
+					<img src="images/раф_1.png">
+					<p>Раф</p>
+					<div>
+						<p>200мл...............120р</p>
+						<p>300мл...............170р</p>
+						<p>400мл...............220р</p>
+					</div> 
+				</div>
+			
+			
+				<div class="MiP">
+					<img src="images/краффины_1.png">
+					<p>Краффины</p>
+						<p>400мл...............220р</p>
+				</div>
+				<div class="MiP">
+					<img src="images/бискотти_1.png">
+					<p>Бискотти</p>
+						<p>400мл...............220р</p>
+				</div>
+				<div class="MiP">
+					<img src="images/имбирный_пирог_1.png">
+					<p>Имба пирог</p>
+						<p>400мл...............220р</p>
+				</div>
+				<div class="MiP">
+					<img src="images/локма_1.png">
+					<p>Локма</p>
+						<p>400мл...............220р</p>
+				</div>
+		</div>
+    </div>
+  </section>
+
+  <section id="MP_Deserts">
+
+		<div>
+			<div class="Zagolovok_MP">
+				<header>
+					<p>МЫ ПРЕДЛАГАЕМ</p>
+				</header>
+			</div>
+    <div class="MP">
+     	<button class="Knopki" onclick="showSection('MP')">Фирменные комбо</button>
+		<button class="Knopki" onclick="showSection('MP_Deserts')">Десерты</button>
+		<button class="Knopki" onclick="showSection('MP_Coffee')">Кофе</button>
+    </div>
+		</div>
+		<div class="MP_De">
+			<div class="MP_D" style="border-right: solid 2px black;">
+				<p>Чизкейк “Нью-Йорк”</p>
+				<p>Чизкейк шоколадный</p>
+				<p>Чизкейк “Орео”</p>
+				<p>Маффин с ягодами</p>
+				<p>Маффин шоколадный</p>
+				<p>Краффины</p>
+				<p>Бискотти</p>
+				<p>Имбирный пирог</p>
+				<p>Вишневый пирог</p>
+				<p>Яблочный пирог</p>
+				<p>Ломка</p>
+				<p>Мороженное с топпингом</p>
+			</div>
+			<div class="MP_Des">
+				<p>160</p>
+				<p>160</p>
+				<p>180</p>
+				<p>100</p>
+				<p>100</p>
+				<p>120</p>
+				<p>110</p>
+				<p>220</p>
+				<p>220</p>
+				<p>220</p>
+				<p>130</p>
+				<p>90</p>
+			</div>
+		</div>
+
+  </section>
+
+  <section id="MP_Coffee">
+     <div>
+		<div class="Zagolovok_MP">
+			<header>
+				<p>МЫ ПРЕДЛАГАЕМ</p>
+			</header>
+		</div>
+    	<div class="MP">
+     		<button class="Knopki" onclick="showSection('MP')">Фирменные комбо</button>
+			<button class="Knopki" onclick="showSection('MP_Deserts')">Десерты</button>
+			<button class="Knopki" onclick="showSection('MP_Coffee')">Кофе</button>
+    	</div>
+			</div>
+				<div class="MP_Napitki">
+					<div class="Napitki_1">
+ 						<div class="Napitki_2">
+ 					<p>Эспрессо</p>
+ 					<p>Американо</p>
+ 					<p>Капучино</p>
+ 					<p>Латте</p>
+ 					<p>Раф (клас./доп.)</p>
+ 					<p>Мокко</p>
+ 					<p>Глясе</p>
+ 					<p>Фраппе</p>
+ 					<p>Кофе по-турецки</p>
+ 					<p>Айриш</p>
+ 					<p>Бейлис</p>
+ 						</div>
+ 						<div class="Napitki_2" style="padding-right: 10px; border-right: black solid 2px">
+ 					<p>80</p>
+ 					<p>90</p>
+ 					<p>100</p>
+ 					<p>110</p>
+ 					<p>120/150</p>
+ 					<p>170</p>
+ 					<p>160</p>
+ 					<p>130</p>
+ 					<p>140</p>
+ 					<p>150</p>
+ 					<p>180</p>
+ 						</div>
+ 					</div>
+ 				<div class="Napitki_1">
+ 					<div class="Napitki_2">
+ 					<p>Зеленый чай</p>
+ 					<p>Черный чай</p>
+ 					<p>Фруктовый чай</p>
+ 					<p>Облепиховый чай</p>
+ 					<p>Марокканский чай</p>
+ 					<p>Улун чай</p>
+ 					<p>Чай с шиповником</p>
+ 					<p>Чай с бергамотом</p>
+ 					<p>Чай с мятой</p>
+ 					<p>Чай с лимоном</p>
+ 					</div>
+ 					<div class="Napitki_2">
+ 					<p>70/150</p>
+ 					<p>70/150</p>
+ 					<p>70/150</p>
+ 					<p>200</p>
+ 					<p>200</p>
+ 					<p>170</p>
+ 					<p>160</p>
+ 					<p>160</p>
+ 					<p>160</p>
+ 					<p>150</p>
+ 					</div>
+				</div>
+ 			</div>
+  		</section>
+	<section id="KDKN">
+		<div class="ccontent">
+			<header id = "Zag">
+				<p>Мы ждем вас!</p>
+			</header>
+			<div style="display: flex; flex-direction: column; gap: 20px;">
+				<p id="Text" >Каждый день мы ждем вас в гости и будем очень рады вам.</p>
+			</div>
+			<div style="display: flex; flex-direction: column; gap: 20px;">
+				<p id="PodZag">График работы:</p>
+				<p id="Text">Пн-Сб: 09:00-20:00</p>
+			</div>
+			<div style="display: flex; flex-direction: column; gap: 20px;">
+				<p id="PodZag">Мы находимся по адресу:</p>
+				<p id="Text" >г. Ярославль, Тутаевское шоссе, 31А</p>
+			</div>
+		</div>
+		<div id="Map">
+			<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A593e9fa12ed3ad5896b81166e446264d2d8ec519b0bcaaa2f06fb63f9639e598&amp;source=constructor" style="	width: 1165px;
+	height: 735px;"></iframe>
+		</div>	
+	</section>
+</body>
+</html>

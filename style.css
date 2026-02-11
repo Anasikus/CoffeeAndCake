@@ -1,0 +1,622 @@
+* {
+  margin: 0;
+}
+
+section#Main {
+  display: flex;
+  flex-direction: column;
+  background-color: #361800;
+  gap: 200px;
+}
+
+section#O_Kofeine,
+section#Avtorizazia {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+section#O_Kofeine {
+  background-image: url("images/Frame 7.png");
+}
+
+.Zagolovok_Shapki {
+  font-size: 48px;
+  font-family: 'Julius Sans One';
+  width: 400px;
+  height: 50px;
+  padding-top: 8px;
+}
+
+.Zagolovok_Ob {
+  display: flex;
+  font-family: 'Julius Sans One';
+  font-size: 110px;
+  color: white;
+}
+
+.Shapka {
+  display: flex;
+  flex-direction: row;
+  background-color: #8C4912;
+  justify-content: flex-end;
+  gap: 650px;
+  margin-top: 40px;
+  padding: 30px;
+  align-content: center;
+}
+
+.Text_Zag {
+  font-size: 24px;
+  font-family: 'Play';
+  justify-content: center;
+  text-align: center;
+  width: 300px;
+}
+
+.Zagolovok_OK {
+  font-size: 48px;
+  font-family: 'Jacques Francois';
+}
+
+.Zagolovok_MP {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 35px;
+  margin-bottom: 30px;
+  font-size: 64px;
+  font-family: 'Jacques Francois';
+  text-align: center;
+  color: white;
+}
+
+.Text1 {
+  font-size: 24px;
+  font-family: 'Play';
+  text-align: justify;
+  width: 450px;
+}
+
+.Text2 {
+  color: white;
+  font-size: 64px;
+  font-family: 'Josefin Sans';
+  text-align: center;
+  width: 410px;
+}
+
+.Text3 {
+  text-align: center;
+  font-size: 24px;
+  color: white;
+  font-family: 'Josefin Sans';
+  width: 445px;
+}
+
+.Podpis {
+  font-size: 24px;
+  font-family: 'Jacques Francois';
+  color: white;
+  margin-left: 500px;
+  margin-top: 18px;
+}
+
+.IMG {
+  display: flex;
+  align-items: center;
+  margin-right: 55px;
+}
+
+.Content {
+  display: flex;
+  flex-direction: row;
+  background-image: url("images/Обводка.png");
+  width: 1015px;
+  height: 160px;
+  justify-content: space-around;
+  margin-left: 190px;
+}
+
+.Content2 {
+  display: flex;
+  flex-direction: column;
+  gap: 420px;
+}
+
+.Podval {
+  display: flex;
+  flex-direction: row;
+  background-color: #8C4912;
+  justify-content: center;
+  gap: 50px;
+  padding: 15px 100px;
+}
+
+.img {
+  margin-top: -250px;
+  padding-left: 300px;
+}
+
+.conteiner {
+  display: flex;
+  flex-direction: row;
+  gap: 200px;
+}
+
+.conteiner_1 {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.img_1 {
+  width: 90px;
+  height: 90px;
+}
+
+.Content3 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 200px;
+  margin-left: 100px;
+  margin-right: 175px;
+  justify-content: center;
+  gap: 150px;
+  align-content: center;
+  margin-bottom: 180px;
+}
+
+.OK,
+.MP {
+  display: flex;
+  justify-content: center;
+}
+
+.OK {
+  flex-direction: column;
+}
+
+.MP {
+  flex-direction: row;
+  gap: 120px;
+}
+
+.Knopki {
+  border-radius: 40px;
+  background-color: #563C28;
+  font-size: 40px;
+  font-family: 'Jacques Francois';
+  padding: 0 110px;
+  color: #BBBABA;
+  border: inset 2px #ffffff;
+  border-color: black;
+  text-decoration: none;
+}
+
+.Knopki:active,
+.Knopki:hover,
+.Knopki:focus {
+  color: white;
+}
+
+.Knopka {
+  font-size: 32px;
+  font-family: 'Josefin Sans';
+  color: white;
+  border-radius: 40px;
+  padding: 16px;
+  border-color: black;
+  background: transparent;
+  width: 360px;
+}
+
+.bi {
+  justify-content: center;
+  margin-left: 43px;
+}
+
+.Registration {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("images/Frame-2.png");
+  background-repeat: no-repeat;
+  gap: 40px;
+}
+
+.Avtorizazia {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 550px;
+  height: 777px;
+  background-color: #EDEDED;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  gap: 30px;
+}
+
+.Vvod_Avtorizacia {
+  width: 380px;
+  height: 60px;
+  border-radius: 40px;
+  font-family: 'Inter';
+  font-size: 24px;
+  text-align: left;
+  padding-left: 15px;
+}
+
+.Zabili_parol {
+  margin-left: 15px;
+  font-family: 'Inter';
+  font-size: 16px;
+  color: #858585;
+  text-decoration: none;
+}
+
+.AAAA,
+.AAA,
+.AA,
+.A {
+  display: flex;
+  flex-direction: column;
+}
+
+.AAAA {
+  gap: 40px;
+}
+
+.AAA {
+  gap: 16px;
+}
+
+.AA {
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-left: 65px;
+}
+
+.A {
+  justify-content: center;
+  align-items: center;
+  margin-left: 92px;
+}
+
+.MiP {
+  background-color: transparent;
+  border: 4px solid black;
+  border-radius: 40px;
+  align-items: center;
+}
+
+.MiP p {
+  font-family: 'Julius Sans One';
+  font-size: 32px;
+  color: white;
+}
+
+.BB {
+  margin-top: 42px;
+  display: grid;
+  grid-template-columns: repeat(4, 320px);
+  column-gap: 60px;
+  row-gap: 23px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 85px;
+  justify-content: center;
+}
+
+.niz {
+  height: 215px;
+}
+
+#zatemnenie,
+#zatemnenie1,
+#zatemnenie2,
+#zatemnenie3,
+#zatemnenie4,
+#zatemnenie5,
+#zatemnenie6 {
+  background: rgba(102, 102, 102, 0.5);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+#okno,
+#okno1,
+#okno2,
+#okno3,
+#okno4,
+#okno5,
+#okno6 {
+  max-height: 780px;
+  max-width: 1135px;
+  text-align: center;
+  padding: 15px;
+  border-radius: 40px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  background: #EDEDED;
+}
+
+#zatemnenie:target,
+#zatemnenie1:target,
+#zatemnenie2:target,
+#zatemnenie3:target,
+#zatemnenie4:target,
+#zatemnenie5:target,
+#zatemnenie6:target {
+  display: block;
+}
+
+.close,
+.close1,
+.close2,
+.close3,
+.close4,
+.close5,
+.close6 {
+  display: inline-block;
+  padding: 0 12px;
+  margin: 10px;
+  text-decoration: none;
+  background: #EDEDED;
+  font-size: 14pt;
+  cursor: pointer;
+}
+
+#Vosstanovlenie {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#input {
+  color: #000000;
+  border-radius: 40px;
+  border: 2px solid #D8D7D7;
+  width: 435px;
+  height: 5px;
+  font-family: 'Jacques Francois';
+  font-size: 36px;
+  padding: 20px;
+  margin: 5px;
+}
+
+input[type=radio],
+input.radio {
+  margin: 2px 0 0 2px;
+  width: 25px;
+  height: 25px;
+}
+
+#Zagg {
+  font-family: 'Josefin Sans';
+  font-size: 64px;
+  color: #000000;
+  font-weight: 400;
+  text-align: center;
+  margin: 40px;
+}
+
+#Zzag {
+  font-family: 'Josefin Sans';
+  font-size: 40px;
+  color: #000000;
+  font-weight: 400;
+  text-align: center;
+}
+
+#inputt {
+  color: #000000;
+  border-radius: 40px;
+  border: 2px solid #D8D7D7;
+  width: 435px;
+  height: 45px;
+  font-family: 'Josefin Sans';
+  font-size: 36px;
+  padding: 10px;
+  margin: 2px;
+  align-self: center;
+}
+
+.buttonn,
+.buttonn2 {
+  background-color: #5D4430;
+  color: white;
+  border-radius: 40px;
+  border: 2px solid #000000;
+  font-family: 'Josefin Sans';
+  align-self: center;
+  transition: background-color 0.7s;
+}
+
+.buttonn {
+  width: 300px;
+  height: 70px;
+  font-size: 40px;
+  margin-top: 90px;
+}
+
+.buttonn2 {
+  width: 500px;
+  height: 70px;
+  font-size: 40px;
+  margin-top: 50px;
+}
+
+.buttonn:hover,
+.buttonn2:hover {
+  background-color: #D8D7D7;
+  color: black;
+}
+
+.IMG1 {
+  text-align: left;
+  width: 609px;
+  height: 742px;
+}
+
+#POLE {
+  background-color: #EDEDED;
+  color: #000000;
+  text-align: left;
+  font-family: 'JejuMyeongjo';
+  font-size: 64px;
+  border: none;
+  border-radius: 40px;
+  width: 694px;
+  height: 120px;
+  position: absolute;
+  right: 130px;
+  padding: 10px;
+}
+
+#POLE2 {
+  background-color: #EDEDED;
+  color: #000000;
+  text-align: left;
+  font-family: 'JejuMyeongjo';
+  font-size: 30px;
+  border: none;
+  border-radius: 40px;
+  width: 820px;
+  height: 220px;
+  position: absolute;
+  right: -125px;
+  padding: 10px;
+  top: 150px;
+  column-count: 2;
+}
+
+#POLE3 {
+  background-color: #EDEDED;
+  color: #000000;
+  text-align: left;
+  font-family: 'JejuMyeongjo';
+  font-size: 30px;
+  border: none;
+  border-radius: 40px;
+  width: 820px;
+  height: 120px;
+  position: absolute;
+  right: 0px;
+  padding: 10px;
+  top: 250px;
+}
+.interval {
+  display: flex;
+  flex-direction: column;
+}
+#Zag {
+  display: flex;
+  flex-direction: row;
+  font-size: 48px;
+  font-family: 'JejuMyeongjo';
+  color: white;
+  justify-content: center;
+  margin-top: 40px;
+}
+#KDKN {
+  background-image: url("images/4_slaid.png");
+  display: flex;
+  padding: 20px 100px;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.ccontent {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 540px;
+}
+#PodZag {
+  display: flex;
+  flex-direction: row;
+  font-size: 40px;
+  font-family: 'Jacques Francois';
+  color: white;
+  text-align: left;
+  font-weight: bold;
+}
+#Text {
+  display: flex;
+  flex-direction: row;
+  font-size: 36px;
+  font-family: 'JejuMyeongjo';
+  color: white;
+  text-align: left;
+}
+#Map {
+  display: flex;
+  flex-direction: row;
+}
+section#MP_Coffee {
+  display: flex;
+  flex-direction: column;
+  background: #563C28;
+  justify-content: center;
+  padding: 0 95px;
+  gap: 100px;
+}
+.Napitki_1 {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+.Napitki_2 {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 60px;
+  font-family: 'Josefin Sans';
+}
+.MP_Napitki {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 104px;
+  padding-top: 50px;
+}
+section#MP,
+section#MP_Deserts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #563C28;
+}
+.MP_D,
+.MP_Des {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  font-family: 'Josefin Sans';
+  font-size: 60px;
+  text-align: justify;
+}
+.MP_D {
+  width: 800px;
+}
+.MP_Des {
+  width: 200px;
+}
+.MP_De {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 105px;
+}
